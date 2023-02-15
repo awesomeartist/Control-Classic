@@ -1,7 +1,11 @@
 % 获取频率响应数据
 
-num = [0, 0, 50];
-den = [25, 2, 1];
+% num = [0, 0, 50];
+% den = [25, 2, 1];
+
+num = [0, 1, 10];
+den = [1, 4, 10];
+
 sys = tf(num, den);
 w = logspace(0, 2, 100);
 H = freqresp(sys, w);

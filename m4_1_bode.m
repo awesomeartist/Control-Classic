@@ -1,6 +1,7 @@
 % bodeÍ¼»æÖÆ1
 num = [0, 0, 50];
 den = [25, 2, 1];
+
 figure("Name", "no limit of w");
 bode(num, den);
 grid;
